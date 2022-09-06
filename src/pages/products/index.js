@@ -14,21 +14,18 @@ function Products() {
         setTodos([...todos, todo])
     }
 
-    // console.log(todos)
-
-    // const dados = todos.map(item => console.log(`aqui: ${item.text}`))
 
     return (
         < >
             <Form handleSubmitProduct={handleSubmitProduct} />
             <div style={{ background: 'gray' }}>
-        
-            {
+
+                {
                     todos && (
                         todos.map((todo) => {
                             return (
                                 <>
-                                   <TodoItem todo={todo}/>
+                                    <TodoItem todo={todo} />
                                 </>
                             )
                         })
