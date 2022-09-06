@@ -5,7 +5,7 @@ import {
     Routes
 } from "react-router-dom";
 
-import Home from "../src/pages/home";
+// import Home from "../src/pages/home";
 import Products from "../src/pages/products";
 
 const RouteNavigation = () => {
