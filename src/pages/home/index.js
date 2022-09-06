@@ -2,7 +2,7 @@ import '../../App.css';
 import Aside from '../../components/aside';
 import Form from '../../components/form';
 
-function App() {
+function Home() {
     return (
         <div className="App" style={{ display: 'flex' }}>
             <Aside />
@@ -11,4 +11,4 @@ function App() {
     );
 }
 
-export default App;
+export default Home;
