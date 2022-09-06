@@ -17,7 +17,7 @@
     text-align: center;
 }
 
-.form-content fom .row .required{
+.form-content  .row .required{
     text-align: center;
     color: red;
 }
@@ -39,7 +39,9 @@
     background-color: #198754;
     color: white;
     width: 10vw;
-    height: 3vh;
+    height: 5vh;
     margin: 0.45rem 0;
     font-size: 1rem;
+    border: 0;
+    border-radius: 4px;
 }

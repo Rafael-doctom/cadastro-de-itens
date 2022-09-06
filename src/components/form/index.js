@@ -9,8 +9,8 @@ const Form = ({ handleSubmitProduct }) => {
 
 
     const todoCreate = () => {
-        const todoObj = {text: textProdut, id: id}
-        setId(id+1)
+        const todoObj = { text: textProdut, id: id }
+        setId(id + 1)
         handleSubmitProduct(todoObj)
     }
 
@@ -24,7 +24,7 @@ const Form = ({ handleSubmitProduct }) => {
                                 <h1 className="">Formulário</h1>
                                 <span className="required">* Preenchimento obrigatório</span>
                                 <div className="form-name">
-                                    <label for="nome">Nome: </label><span >*</span>
+                                    <label for="nome">Nome do Produto: </label>
                                     <input type="text" onChange={(e) => setTextProduct(e.target.value)}
                                         required />
                                 </div>

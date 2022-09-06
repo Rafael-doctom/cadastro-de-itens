@@ -1,4 +1,20 @@
-h1{
+h1 {
     text-decoration: line-through;
     margin: 4rem;
+}
+
+li {
+    display: flex;
+    background-color: rgb(128, 170, 232);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2rem;
+
+    margin: 1rem auto;
+    height: 6vh;
+    border: 0;
+    border-radius: 5px;
+    padding-left: 0.44rem;
+    padding-right: 0.44rem;
+    text-decoration: line-through;
 }

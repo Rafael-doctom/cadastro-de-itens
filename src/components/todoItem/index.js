@@ -1,14 +1,20 @@
 import './style.css';
 
 
-const TodoItem = ({ todo}) => {
+const TodoItem = ({ todo }) => {
     return (
         <>
             <ul>
                 <li>
-                    {todo.text}
+                    <label>
+                        {todo.text}
+                    </label>
+                    <label>
+                        <img src="../images/delete-svgrepo-com.svg" alt='delet' width={25} height={30} />
+                        <img src="../images/edit-svgrepo-com.svg" alt='delet' width={25} height={30} />
+
+                    </label>
                 </li>
-              
             </ul>
 
         </>

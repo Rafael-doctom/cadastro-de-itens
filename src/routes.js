@@ -13,7 +13,8 @@ const RouteNavigation = () => {
         <>
             <Router>
                 <Routes>
-                    <Route exact path="/" element={<Home />} />
+                    {/* <Route exact path="/" element={<Home />} /> */}
+                    <Route exact path="/" element={<Products />} />
                     <Route exact path="/products" element={<Products />} />
                 </Routes>
             </Router>

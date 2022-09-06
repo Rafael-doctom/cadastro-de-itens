@@ -18,7 +18,7 @@ function Products() {
     return (
         < >
             <Form handleSubmitProduct={handleSubmitProduct} />
-            <div style={{ background: 'gray' }}>
+            <div style={{ width: '95vw',  margin: '1rem auto', height: '6vh'}}>
 
                 {
                     todos && (
