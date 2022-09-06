@@ -1,0 +1,26 @@
+.container {
+    background-color: #0d6efd;
+    min-height: 95vh;
+    min-width: 10vw;
+    max-width: 10vw;
+    margin: 1rem;
+    border: 0;
+    border-radius: 10px;
+}
+
+.content {
+    background-color: transparent;
+}
+
+.content ul {
+    padding: 30vh 0 0 1rem;
+
+}
+
+.content ul li {
+    margin: 2rem 0 0 0;
+    cursor: pointer;
+    text-decoration: underline;
+    color: aliceblue;
+    font-size: 1.50rem;
+}

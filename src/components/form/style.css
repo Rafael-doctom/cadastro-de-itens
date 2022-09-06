@@ -1,0 +1,35 @@
+.form-container{
+    min-height: 95vh;
+    width: 90vw;
+    margin: 1rem;
+    border: 1px solid #2122233f;
+    border-radius: 10px;
+}
+
+.form-content{
+    background-color: transparent;
+    padding-top: 0.45rem;
+    padding-left: 0.45rem;
+}
+
+
+.form-content form .row h1{
+    text-align: center;
+}
+
+.form-content form .row .required{
+    text-align: center;
+    color: red;
+}
+
+.form-name{
+    background-color: transparent;
+    margin-top: 0.44rem;
+
+}
+.form-name input{
+    width: 80vw;
+    height: 4vh;
+    margin: 0 0 0 0.4rem;
+    padding-left: 0.33rem;
+}
